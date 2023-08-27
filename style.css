@@ -25,3 +25,22 @@ td {
 button {
     padding: 5px;
 }
+
+.tableHeader {
+    background-color: rgb(40, 40, 40);
+}
+
+#logTable {
+    text-align: center;
+}
+
+th {
+    border: 3px;
+    border-color: white;
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+}
+
+td {
+    text-align: center;
+}
