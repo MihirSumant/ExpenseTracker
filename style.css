@@ -1,5 +1,27 @@
 * {
     background-color: rgb(34, 32, 32);
+    color: white;
+    
+}
+
+h1 {
     color: rgb(100, 210, 100);
     text-align: center;
+}
+
+main {
+    margin: 8px;
+    padding: 4px;
+}
+
+.inputBox {
+    width: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+button {
+    padding: 5px;
 }
