@@ -16,23 +16,23 @@
             <table>
                 <tr>
                     <td>Name:</td>
-                    <td contenteditable="true" class="input-box"><input type="text"></td>
+                    <td class="input-box"><input id="inputName" type="text"></td>
                 </tr>
                 <tr>
                     <td>Vendor:</td>
-                    <td contenteditable="true" class="input-box"><input type="text"></td>
+                    <td class="input-box"><input id="inputVendor" type="text"></td>
                 </tr>
                 <tr>
                     <td>Payment Method:</td>
-                    <td contenteditable="true" class="input-box"><input type="text"></td>
+                    <td class="input-box"><input id="inputPM" type="text"></td>
                 </tr>
                 <tr>
                     <td>Amount:</td>
-                    <td contenteditable="true" class="input-box"><input type="text"></td>
+                    <td class="input-box"><input id="inputAmount" type="number"></td>
                 </tr>
             </table>
             <br>
-            <button>Add to Tracker</button>
+            <button id="addToTracker">Add to Tracker</button>
         </section>
         <br>
         <section >
@@ -42,7 +42,7 @@
                         <th class="tableHeader" colspan="7">Expenses</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="logTableBody">
                     <tr>
                         <th scope="col">No.</th>
                         <th scope="col">Name</th>
