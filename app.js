@@ -3,11 +3,10 @@ const inputVendor = document.getElementById('inputVendor');
 const inputPM = document.getElementById('inputPM');
 const inputAmount = document.getElementById('inputAmount');
 
-
 const addExpense = document.getElementById('addToTracker');
 const logNewExpense = document.getElementById('logTableBody');
 
-
+let expenseNum = 0;
 
 addExpense.onclick = () => {
 
@@ -17,11 +16,11 @@ addExpense.onclick = () => {
     let printAmount = inputAmount.value;
     
     let printTime = new Date();
-    let printRemovebutton = '';
+    expenseNum++;
 
     logNewExpense.innerHTML += `
     <tr class='newRow'>
-    <th scope="col">No.</th>
+    <th scope="col">${expenseNum}.</th>
     <th scope="col">${printName}</th>
     <th scope="col">${printVendor}</th>
     <th scope="col">${printPM}</th>
