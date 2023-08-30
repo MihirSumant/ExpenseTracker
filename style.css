@@ -30,8 +30,9 @@ button {
     background-color: rgb(40, 40, 40);
 }
 
-#logTable {
-    text-align: center;
+#displayTable {
+    display: flex;
+    justify-content: center;
 }
 
 th {
