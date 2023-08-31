@@ -45,3 +45,9 @@ th {
 td {
     text-align: center;
 }
+
+.removeButton {
+    padding: 12px;
+    border: 5px;
+    border-color: white;
+}
