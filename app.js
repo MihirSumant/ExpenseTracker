@@ -26,7 +26,7 @@ addExpense.onclick = () => {
     <th scope="col">${printPM}</th>
     <th scope="col">$${printAmount}</th>
     <th scope="col">${printTime}</th>
-    <th scope="col"><button class='removeButton'>Delete</button></th>
+    <th scope="col"><button class='removeButton'>X</button></th>
     </tr>`
 }
 
